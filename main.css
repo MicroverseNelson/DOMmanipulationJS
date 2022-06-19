@@ -1,0 +1,38 @@
+.menu {
+    position: absolute; /* this makes the div to fit to the content*/
+    padding: 20px;
+    /*background: black;*/
+    right: 20px;
+    cursor: pointer;
+}
+
+.bar{
+    width: 30px;
+    height: 3px;
+    background-color: green;
+    margin: 3px 0;
+    transition: 0.4s;
+}
+
+.menu.open .bar-1 {
+    transform: rotate(40deg);
+}
+
+.menu.open .bar-2 {
+    opacity: 0;
+}
+
+.menu.open .bar-3 {
+    transform: rotate(-40deg);
+    margin-top: -12px;
+}
+
+nav {
+    height:0;
+    overflow: hidden;
+    transition:0.4s;
+}
+
+nav.navbar {
+    height: 100px;
+}
