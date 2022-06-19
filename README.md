@@ -8,7 +8,7 @@
 
 ## Demo
 
-- coming soon
+- [https://microversenelson.github.io/hamburger-menu/]
 
 ## Technology
  -  HTML
